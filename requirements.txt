@@ -1,0 +1,4 @@
+pandas
+kmodes
+emperor
+git+https://github.com/MaxHalford/Prince#egg=prince
