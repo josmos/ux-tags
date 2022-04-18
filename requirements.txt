@@ -1,4 +1,4 @@
-pandas
-kmodes
-emperor
+pandas==1.2.4
+kmodes==0.12.1
+emperor==1.0.3
 git+https://github.com/MaxHalford/Prince#egg=prince
