@@ -5,7 +5,7 @@ interviewer,name,Q age,age ranks,"Q background: work / study, relationship",Q pl
 [yes/no]","Q Why?
 [pain point / added value]","Q Do you inform yourself about the content of the exhibition in advance?
 [yes/no]",inform in advance,Q inform in advance - why? [motivation],"Q do you have any suggestion for the App?
-What do you wish to have or need?",suggestions,,
+What do you wish to have or need?",suggestions,Persona,
 Ina,Sabine,54,>40,"Draftswers, Industrial clerk
 married","Bad Bentheim, GER",abroad,"selten, wenn dann Lebensmittel, Festival & Musicaltickets",Yes,I live in a town. Supermarket is around the corner and I have a car.,convenience,"laptop, tablet, rarely phone","tablet, laptop",large,"Am Handy ist es ein bisschen zu klein,
 bessere Übersicht am PC oder Tablet.",ease of use,"Yes, haven't been to a museum in while.
@@ -16,7 +16,7 @@ gibt ihrem Leben etwas mehr Tiefgang, erweitert den Horizont.",Rather with someo
 ""What do you think about it?""",exchange,,ambiguous,"word-of-mouth, billboards, social media, newspaper",,"Ich war letztens im Grünen Gewölbe in Dresden:
 Es gab ur viele Schätze, was ganz viel wert ist und ich frage mich was man damit alles gutes tun könnte, statt dessen, dass es im Museum rumliegt.",,,wenn es eine so spezielle App für Museen geben würde dann auf jeden Fall,yes,"Schon manchmal online, aber meistens direkt im Museum.",mostly offline,Dann bin ich spontaner.,flexibility,"No, sondern Social Media, TV, Mund zu Mund",no,,"No, because there is none I know of.",no,no,"Wenn ich alles lesen würde würde das viel zu lange dauern und ich hätte bereits nach ein paar Minuten keine Kapazitäten mehr.
 Ein Audio Guide wäre cool.",yes,yes,"--> Ich wohne auf dem Land, da gibts nicht so viel, darum muss ich mich vorab erkudigen wo ich hin will.
---> Im Urlaub/Stadt ist es eher spontan. Ich geh dann einfach rein, wenn was nett aussieht.",,,,
+--> Im Urlaub/Stadt ist es eher spontan. Ich geh dann einfach rein, wenn was nett aussieht.",,,art lover,
 Ina,Jenny,30,21-30,"Graphic Designer, Freelancer,
 in a relationship","from Salzburg, lives in Vienna, AT",Vienna based,yes,Yes,It's just easy sometimes.,convenience,laptop,laptop,large,"Phone is too small, but if you're on the road I obviously use my smart phone then.
 Online Shopping: I need a bigger screen and would like to see several products in a row & with payments its easier on a bigger screen.
@@ -31,7 +31,7 @@ if the exhibition is really interesting I would also go by myself.",exchange,"on
 I don't want to be dependend on the ticket / time slot, day, etc.",flexibility,usually not but if then: wien.info or 1000 Things (blogs),no,,"e.g. fräulein flora: wold be great if you don't have to read the whole
 article to figure out about which musuem / exhibition they are talking.",yes,no,"No, because it simply takes too long. Just the header / entrence info whether something's really interesting.",yes,yes,To make sure whether I like it or not.,"I would book more often online even if they would charge a little extra fee for changing the date.
 
-I would read more if it would be less text (compressed).",audio guides,,
+I would read more if it would be less text (compressed).",audio guides,art lover,
 Ina,Britta,33,31-40,"studied Interior Architecture, Design & Produkt Management
 working as Graphic & Medien Designer
 in a relationship","from Niederrhein, lives in Bayern, GER",abroad,yes,Yes,,NA,"laptop, phone",laptop,medium,"Laptop screen is bigger, Responsive Design is quite shitty mostly.","ease of use, app optimization",Atm no. But i used to now and then.,yes,"If the topic is interesting I get inspiration form it. It relaxes me, opens up my horizon.
@@ -51,7 +51,7 @@ Why that? --> Cause I don't go to a museum that often so I don't need to be up t
 Furthermore I would like to keep my phone storage clean.
 If the app would give a bigger value to me I would consider to install it.",no,no,because its always way too much text. She tries in the beginning and then its too much and she only reads where it really interests her.,yes,yes,"Regarding where and what is going on but she is not informing herself about the artist him/herself.
 Just checking on Museum Pages.","Show nishes (not only the biggest museums),
-temporary exhibitions, sorted by genres to filter properly for your taste (modern art, etc.).","favorits/filters, map",,
+temporary exhibitions, sorted by genres to filter properly for your taste (modern art, etc.).","favorits/filters, map",casual goer,
 Ina,Lisa,29,21-30,"Master, working as Retail Marketing Manager
 in a relationship","from Bad Bentheim, living in Hamburg, GER",abroad,yes,Yes,,NA,"phone, sometime tablet",phone,small,I always have it with me and it's faster.,"mobility, app optimization",No,on holidays yes,Lack of time. I am wasting time with other things.,education,intrinsic,"Once a year.
 I only ",1,once a year,,history,NA,"Interesting question...
@@ -61,7 +61,7 @@ Feels more safe with someone else.","companionship, exchange","Mostly with holid
 offer, there is a lack of transparency regarding the best offer, etc.",yes,no,"I only read what really interests me. Everything is too long and much.
 It makes me feel rushed when there're many people standing, reading and waiting for me to move.",yes,yes,"I am always checking what to expect. to get some pre-knowledge cause its oterhwise too time consuming in the museum itself.
 Not necessarly about the artist itself, but more about why there is this exhibition, etc.","App should be short and have a good overview and info, visually appealing.
-I would by tickets even more online if it would be possible to have a ticket for a day of your choice (e.g.) and even if they would charge a little extra fee for changing the date.",,,
+I would by tickets even more online if it would be possible to have a ticket for a day of your choice (e.g.) and even if they would charge a little extra fee for changing the date.",,tourist,
 Ina,Jaqueline,25,21-30,Master Restaurierung / Konservierung für Papier ABK,"from Salzburg, lives in Vienna, AT",Vienna based,yes,Yes,Nice to ly in bed and to not need to go outside and it saves some time. For inspiration when comes to clothes.,convenience,"phone, laptop","laptop (online shopping)
 phone",large,"--> bigger screen
 --> to look up stuff quickly","ease of use, mobility",yes,yes,"I go so often because I can go for free (icom card due to studies), but the main reason is because I am interested in art and because I study art history and restauration, etc. I think I have quite a lot background knowledge which safe me some time (don't need to read everything). Is energy saving cause I don't have to read everything.","interest, education",intrinsic,"currently 1-2 a week (doing a course atm)
@@ -85,7 +85,7 @@ in another country I would use GoogleMaps to see whats available.",yes,,no,no,mo
 And if it interests me in particular I will go check it out.
 ",I will read what the exhibit is about online and choose in particular for special interests.,yes,,"A Map would be nice to estimate whether you can walk and do it spontanously.
 KHM is pretty confusing where every pieve of art is to find. But it would be great to have a map of the certain exhibition where you find which piece of art. (has to be updated regularly).
-Would be a great chance to support smaller museums (Tanzquartier, etc.) cause the big ones get visitor anyways and the small ones have to fight to survive, especially during Covid.",map,,
+Would be a great chance to support smaller museums (Tanzquartier, etc.) cause the big ones get visitor anyways and the small ones have to fight to survive, especially during Covid.",map,art lover,
 Christine,Cristina,38,31-40,"studied history
 Product manager in payment industry for 10 years
 in relationship, 2 kids (12, 15)","Romanian, living in Vienna for 10+ years",Vienna based,yes,Yes,to buy clothes & books,NA,phone,phone,small,,NA,yes,yes,"1. makes me feel good, I get out excited/creative, googles things, get in contact with artists, start following them 
@@ -126,7 +126,7 @@ I take pictures of what I like, file them on computer (names, stored by years), 
 - partnerships KHM -> cheaper if you have yearly Wiener Linien
 - 1x/year: mumok open for yearly card users
 - if it's free especially people who don't go often, they would like to take this chance
-- Ask to rate after museum visit, do you want to be informed about similar offers?",,,
+- Ask to rate after museum visit, do you want to be informed about similar offers?",,art lover,
 Christine,Stephan,28,21-30,"studied political science, history, currently law
 works part time 
 in a relationship","Austrian, living in Vienna",Vienna based,yes,Yes,,NA,laptop,laptop,large,"better overview, gives feeling of security
@@ -134,7 +134,7 @@ uses phone for fun things ","safety, ease of use",yes,yes,"timeless culture, edu
 mostly post-visit he informs himself about ""what- it's part of me now as I visited and I have the obligation to know about it""",mostly with girlfriend,,she pushes him to actually go,companionship,"domestic: museum website, posters, girlfriend
 abroad/on vacation: google's ""top 10 things to do in [city]""",ambiguous,"word-of-mouth, google, museum website, billboards",,NA,NA,,"would use an app if it was used by many (= trust that it's useful/reliable): mainly to get background information with fun fact character, artistic explanations (why artist used these colors, why motive reflects something special in that time, etc.); scan artefact to read information; would be great if it informs you about limited visitors/timeframe/and actual price; would like feature to scan QR code to listen to audio guide in his preferred route (not predefined route where you get lost and don't find the artefact)",,at the place,,"mostly pays with card
 
-had a bad online experience in Rome - wanted to visit museum on specific day, website suggested that only a few tickets are left, did a ""panic purchase"", turns out online price was 30% higher than locally",convenience,"No, he googles, girlfriend invites him",no,"google, is invited",NA,NA,no,"only reads the main attractions and what interests him, gets exhausting after long time; likes audio guides but they are not optimal as they often have a certain sequence you need to follow ",no,no,,NA,NA,,
+had a bad online experience in Rome - wanted to visit museum on specific day, website suggested that only a few tickets are left, did a ""panic purchase"", turns out online price was 30% higher than locally",convenience,"No, he googles, girlfriend invites him",no,"google, is invited",NA,NA,no,"only reads the main attractions and what interests him, gets exhausting after long time; likes audio guides but they are not optimal as they often have a certain sequence you need to follow ",no,no,,NA,NA,casual goer,
 Christine,Petra,59,>40,"grammar school teacher
 married, 3 kids","Austrian, living in Vienna",Vienna based,yes,Yes,"more comfortable in some cases (dog food, heavy); time safer; corona only possibility for certain time","convenience, time",phone,phone,small,,NA,yes,yes,"with class, ~20-25 kids, (KHM, NHM, Techn, Uhrenmuseum, Brotmuseum)
 when someone asks me to
@@ -156,7 +156,7 @@ Rome - couldn't not get into vatican, limited entry, buy in advance so that I ca
 if it was easy to find and short -> no reading type, or listen
 ",no,,"no prior research, bc. lack of time
 
-usually we have a guided tour, no need to inform upfront",NA,NA,,
+usually we have a guided tour, no need to inform upfront",NA,NA,casual goer,
 Ziga,Matic,29,21-30,"Law, Single",Slovenia,abroad,Yes,Yes,"I don't like going to the store.
 Fast search
 Good overview
@@ -171,7 +171,7 @@ Advertisements around the city
 Tourist/travelling agency because they have a lot of insight on local activities and hidden POIs.
 Also, I like using a travelling agency because they take over logistics and time planning.",proactive,"google, billboards, museum website, other",,I don't find this approach challenging,,Because I have enough knowledge to find a lot of things by myself and I consider this a part of my experience.,Yes,yes,Exclusively at the museum,offline,I have to go there anyhow and there is often some additional information at the counter.,convenience,"Not really.
 Usually museum webpage.",,,,,"Yes!
-","Of course, I read all the information.","Yes, I always do the prior research.",yes,Because I want to know the context really well.,Filter,filter,,
+","Of course, I read all the information.","Yes, I always do the prior research.",yes,Because I want to know the context really well.,Filter,filter,tourist,
 Ziga,Natalija,29,21-30,"Artist, Married (Primož)",London,abroad,Partially,NA,"Yes
 Overview
 
@@ -232,7 +232,7 @@ Distance between exhibitions and time estimation (optimized planning)
 
 The route between two exhibitions
 
-Suggestions based on your preferences but easily customizable","map, favorites, previews",,
+Suggestions based on your preferences but easily customizable","map, favorites, previews",art lover,
 Ziga,Primož,29,21-30,"Architect, Married (Natalija)",London,abroad,Yes,Yes,"Informed decision
 No time pressure
 Comparison","overview, time",laptop,,large,"I am used to working on a computer, I like the big screens and physical keyboard",,Yes,,"Mostly because of my wife but I also like go alone.
@@ -244,7 +244,7 @@ If spontaneous I buy it at the counter but I check the price online before.
 
 Sometimes it is easier to buy online than interact with people
 
-Sometimes it's a problem if the webpage is not responsive or the buying process is not smooth.","price, convenience",,,,Responsivnes,,Not everything,Too much information. I cherry-pick it,No,no,,,,,
+Sometimes it's a problem if the webpage is not responsive or the buying process is not smooth.","price, convenience",,,,Responsivnes,,Not everything,Too much information. I cherry-pick it,No,no,,,,casual goer,
 Ziga,Nastja,26,21-30,"English studies and philosophy
 Works at an insurance company,
 In relationship",Vienna,Vienna based,Yes,Yes,"Avoid crowds
@@ -266,41 +266,41 @@ Not all exhibitions offer the possibility of buying online.
 I don't see a problem with buying the ticket there. Usually, there is no line.",convenience,Inspi,,Inspi,,,Usually,Because I don't have enough knowledge to know the context on my own.,Yes,yes,Only to inform myself about the exhibition but no additional research. I rather read about it there. Sometimes my boyfriend shares some insights after doing his research.,"Everything in one place
 Some kind of reminders
 Events that are not only in museums but also various culture events
-Filters","reminders, filters",,
+Filters","reminders, filters",casual goer,
 Noemi,Börni,25,21-30,Working - Teamlead in despatching department,Vienna,Vienna based,Yes,Yes,"More convenient, less stressful",convenience,laptop,laptop,large,"Bigger screen + some websites are better 
 developed for screens; not every online shop
 has its own app",app optimization,Yes,yes,It enspires me,creativity,NA,Once or twice a year,1-2,once a year,NA,NA,Not popular,"As I don't go too often, 
 it's always special so I can remember
 it for a
 long time",With someone,with someone,"Because sharing the same 
-experiences, so we can talk about it",Exchange,"I don't, I just hear about them",passive,word-of-mouth,NA,NA,,NA,yes,yes,At the museum,Offline,"It's faster, don't need to wait in the line",time saving,no,no,NA,no,no,no,NA,yes,yes,Otherwise I wouldn't go there,Yes,favorits,,
+experiences, so we can talk about it",Exchange,"I don't, I just hear about them",passive,word-of-mouth,NA,NA,,NA,yes,yes,At the museum,Offline,"It's faster, don't need to wait in the line",time saving,no,no,NA,no,no,no,NA,yes,yes,Otherwise I wouldn't go there,Yes,favorits,casual goer,
 Noemi,Tereza,24,21-30,"Workin within international business 
 ",Scotland,abroad,Yes,Yes,It's common standard,convenience,"phone, tablet",phone,small,"It's more accessible 
 and you I always have it with me",mobility,Yes,yes,It educates me and it's interesting; new output,education,NA,Sometimes,?,,NA,NA,Popular,"Learning new things, inspiring new people about things 
 I saw  because I tell them about it",With someone,with someone,"Discuss with someone; feeling more
 comofrtable",Exchange,Advertising,passive,social media,NA,NA,,NA,yes,yes,Online,Online,Faster,time saving,"Nothing particular, 
-only google maps",no,NA,no,no,no,NA,yes,yes,It motivates me,Yes,personalised notifications,,
+only google maps",no,NA,no,no,no,NA,yes,yes,It motivates me,Yes,personalised notifications,tourist,
 Noemi,Nico,30,21-30,Working  - Mechanical engineer,Scotland,abroad,Yes,Yes,Fast,time,phone,phone,small,"Easy to access, fast",ease of use,Yes,yes,"Innovation, it makes me creative in some way",creativity,NA,Twice a year,2,twice a year,NA,NA,Popular,"Makes me appreciate things in different way; 
 gain me more knowledge",With someone,with someone,So I can have a discussion,Exchange,"Usually looking for a particular museum
-thank take a look what they offer",proactive,museum website,NA,NA,"no clarity, scattered information",NA,yes,yes,Online,Online,Faster & more convenient,"time saving, convenience",social media,no,NA,"Yes, websites are not clear, too complex, hard to understand",yes,no,added value,yes,yes,Because than I will get insight what the event will be lik,Yes,"personalised notifications, preview",,
+thank take a look what they offer",proactive,museum website,NA,NA,"no clarity, scattered information",NA,yes,yes,Online,Online,Faster & more convenient,"time saving, convenience",social media,no,NA,"Yes, websites are not clear, too complex, hard to understand",yes,no,added value,yes,yes,Because than I will get insight what the event will be lik,Yes,"personalised notifications, preview",tourist,
 Jos,Volker,43,>40,buisnes unit manager,Upper Austria,outside Vienna,yes,Yes,"prefers going to shops if possible 
 buys online if he doesnt get what he
  wants in the shop ",,"phone, laptop (for work only)",phone,small,wants to buy instantly without going anywhere,mobility,yes,yes,extrinsic,education,extrinsic,2 / year,2,twice a year,,"history, tech",popular,no influence,never alone,with someone,"goes only with family, mostly when travelling","quality time, companionship","not looking for exibitions, 
 occasionally he reads about 
 it in social media or news (orf.at)",proactive,"social media, media-reports",,,NA,,,,50/50 online/on site,,,,no,no,NA,,,"does not read much , 
-only very interessting things","no patience, must be paticulary interessting to him",no,,,,,,
+only very interessting things","no patience, must be paticulary interessting to him",no,,,,,parent,
 Jos,Theresa,43,>40,dentist,Upper Austria,outside Vienna,yes,Yes,"but only big, trusted shops ",,phone,phone,small,can use it any where,mobility,yes,yes,extrinsic,education,extrinsic,4 / year,4,quaterly,,history,popular,no influence,never alone,with someone,"goes only with family,
  mostly when travelling","quality time, companionship","travel guides,
  Internet
  does not check on upcomming exibitions",passive,"social media, other",,,NA,,,,only on site,,,,no,no,NA,,,"reads a lot, 
-prefers audio guides",,no,,,,,,
+prefers audio guides",,no,,,,,parent,
 Jos,Maria,48,>40,CEO charitable organisation,Vienna,Vienna based,yes,Yes,,,"tablet, phone",tablet,medium,flexible but less fiddly than mobile,mobility,yes,yes,intrinsic,"social, education",intrinsic,NA,na,,art,art,ambiguous,no influence,sometimes alone,ambiguous,depends if people have time,"companionship, personal interrest","online -> google search 
 word-of-mouth recommendation /
  social media
  sometimes through media coverage 
 (TV/Radio)",ambiguous,"google, word-of-mouth, social media, media-reports",,sometimes no information if ticket reservation is required (specially during pandemic),"no clarity, no reminders",,,,"both, preferably online ",,,,no,no,NA,"hates it if she has to enter a lot of data 
-hates it if tickets are sent via e-mail",,"depends, maybe half of it","depends on time, length of text, content",no,,,,,,
-Pietro,Sofia,22,21-30,studying in a dance programme,Vienna,Vienna based,yes,Yes,Easier. Can compare prices with other shops. Does not have to be around people,convenience,laptop,,large,,,yes,yes,because of interest in art,education,intrinsic,once a month,12,regulary,,art,,it inspires her for personal project,"alone, but also depends on the exhibition/museum",alone,she likes to have her time (you don't have to rush),flexibility,social media (instagram) ,proactive,social media,,,,,yes,yes,"if in Vienna at the museum, otherwise online","online, offline",?,,Instagram or she just googles (modern art museum in berlin),yes,"Instagram, google",,,yes,"because most time I go with people that are slow in the museums so she reads. She reads if the museum/exhibition interests her, but she prefers to have upfront information because once she is there she struggles to process all the info ",yes (but not super precisly),yes,because if I have to read everything I dont have time to precess everything at the museum,,,,
-Pietro,Emma,21,21-30,Studying graphics and prints making (art) ,Vienna,Vienna based,yes,Yes,because I have trouble making fast decisions,time,"mobile (looking), laptop (buying)",,ambiguous,,,yes,yes,enrich herself and it also helps her in her creative process ,education,intrinsic,3/4 times a month,40-48,regulary,,art,,helps her in her creative process,alone,alone,she likes to have her time and spend how much time she wants to spend there,flexibility,"Billabords, Flyers and esel.at",proactive,"word-of-mouth, billboards",,reminding what events are going on and keep track of whats happening ,no reminders,because I forget about thigs,definatly yes,yes,most time at the museum,offline,because maybe something happens and i cannot go ,flexibility,https://esel.at,yes,esel.at,I forget about credentials,yes,no,no large span of attention and i think i can always get extra info after visiting ,yes (but not super precisly),yes,not to spoil anything from the exhibition,"Must have suggestions for the APP: 1. structure between events (some kind of categories/filters) not to have everything thrown at you. 2. tickets all in one place. 3. notification for an upcoming event you applied for. 4. description for the event, with maybe further links (if you want to know more and don't have time to do your own research) 5. Aesthetically pleasing",,,
-Pietro,Lorenzo,23,21-30,Studying Cultural Heritage,Italy (Alba),abroad,yes,Yes,more choice and comfort,overview,mobile ,mobile,small,ease of use and convinience,ease of use,yes,yes,for his studies and personal interest,education,intrinsic,3/4 times a moth,40-48,regulary,,art/history,,it helps him for his future job (he wants to be a museum curator and likes to see how they settle up a museum exhibition)) ,alone,alone,you can take your time,flexibility,"Arte.it, social media (instagram)",proactive,"google, museum website",,arte.it has extremely bad UX and reminding whatis going on,"no clarity, scattered information",because there is no app for the phone where i can get all info I want,yes,yes,online 99%,online,because i can start the visit and queue,time saving,arte.it,yes,"arte.it, google arts & culture",there is no geolocalization for the app (very bad ui and ux),yes,usually yes ,to understand the mental process of the creator and how he thought about setting up the exhibition,yes,yes,he wants to know what he is visiting ,"app related to culture (google arts and culture) best app for him-------suggestions: some kind of geo-localization / some kind of ""what's happening today"". A way to have some kind of filter based on what kind of museums you like. Snappi and fast process (no waste of time) some kind of trip advisor (you set place and time and you get what's happening)",favorites for museums and have notification on temporary exhibition in the museums you have favorites,,
-Pietro,Rocco,24,21-30,Master Strategy Entrepreneurship / Intern at BitPanda,Vienna,Vienna based,yes,Yes,in Vienna more than Italy because everything closes early,time,laptop,laptop,large,"faster, safer, app on phone is not always working fine","ease of use, safety",yes,yes,"do something different, opens your mind and you can also learn a lot ",creativity /relaxation,intrinsic,8 times a year (circa),8,regulary,,,,it is a way to escape routine and think of something else,with people (but we do the visit alone) ,with someone,to share thoughts about the museum/exhibition,exchange,"billabords (you see them and take picture of it), social media, facebook events",passive,social media,Billabords because i can take picture of it and then i can go,there is no one place where you can find everything ,scattered information,lose time in the research,yes,yes,at the museum ,offline,because maybe something happens and i cannot go (if its a museum like Uffizi in firenze i book online 2 months before),flexibility,facebook(?),yes,facebook,no,no,no,because i get bored. But if is something that is not immediate I read it to understand it,yes,yes,don't want to lose time and understand if it suits my taste,"filters for what you like or not, link to some websites, some reviews maybe, photos from people ",,He would buy it online if it was cheaper ,he is not keeping tickets
+hates it if tickets are sent via e-mail",,"depends, maybe half of it","depends on time, length of text, content",no,,,,,casual goer,
+Pietro,Sofia,22,21-30,studying in a dance programme,Vienna,Vienna based,yes,Yes,Easier. Can compare prices with other shops. Does not have to be around people,convenience,laptop,,large,,,yes,yes,because of interest in art,education,intrinsic,once a month,12,regulary,,art,,it inspires her for personal project,"alone, but also depends on the exhibition/museum",alone,she likes to have her time (you don't have to rush),flexibility,social media (instagram) ,proactive,social media,,,,,yes,yes,"if in Vienna at the museum, otherwise online","online, offline",?,,Instagram or she just googles (modern art museum in berlin),yes,"Instagram, google",,,yes,"because most time I go with people that are slow in the museums so she reads. She reads if the museum/exhibition interests her, but she prefers to have upfront information because once she is there she struggles to process all the info ",yes (but not super precisly),yes,because if I have to read everything I dont have time to precess everything at the museum,,,art lover,
+Pietro,Emma,21,21-30,Studying graphics and prints making (art) ,Vienna,Vienna based,yes,Yes,because I have trouble making fast decisions,time,"mobile (looking), laptop (buying)",,ambiguous,,,yes,yes,enrich herself and it also helps her in her creative process ,education,intrinsic,3/4 times a month,40-48,regulary,,art,,helps her in her creative process,alone,alone,she likes to have her time and spend how much time she wants to spend there,flexibility,"Billabords, Flyers and esel.at",proactive,"word-of-mouth, billboards",,reminding what events are going on and keep track of whats happening ,no reminders,because I forget about thigs,definatly yes,yes,most time at the museum,offline,because maybe something happens and i cannot go ,flexibility,https://esel.at,yes,esel.at,I forget about credentials,yes,no,no large span of attention and i think i can always get extra info after visiting ,yes (but not super precisly),yes,not to spoil anything from the exhibition,"Must have suggestions for the APP: 1. structure between events (some kind of categories/filters) not to have everything thrown at you. 2. tickets all in one place. 3. notification for an upcoming event you applied for. 4. description for the event, with maybe further links (if you want to know more and don't have time to do your own research) 5. Aesthetically pleasing",,art lover,
+Pietro,Lorenzo,23,21-30,Studying Cultural Heritage,Italy (Alba),abroad,yes,Yes,more choice and comfort,overview,mobile ,mobile,small,ease of use and convinience,ease of use,yes,yes,for his studies and personal interest,education,intrinsic,3/4 times a moth,40-48,regulary,,art/history,,it helps him for his future job (he wants to be a museum curator and likes to see how they settle up a museum exhibition)) ,alone,alone,you can take your time,flexibility,"Arte.it, social media (instagram)",proactive,"google, museum website",,arte.it has extremely bad UX and reminding whatis going on,"no clarity, scattered information",because there is no app for the phone where i can get all info I want,yes,yes,online 99%,online,because i can start the visit and queue,time saving,arte.it,yes,"arte.it, google arts & culture",there is no geolocalization for the app (very bad ui and ux),yes,usually yes ,to understand the mental process of the creator and how he thought about setting up the exhibition,yes,yes,he wants to know what he is visiting ,"app related to culture (google arts and culture) best app for him-------suggestions: some kind of geo-localization / some kind of ""what's happening today"". A way to have some kind of filter based on what kind of museums you like. Snappi and fast process (no waste of time) some kind of trip advisor (you set place and time and you get what's happening)",favorites for museums and have notification on temporary exhibition in the museums you have favorites,art lover,
+Pietro,Rocco,24,21-30,Master Strategy Entrepreneurship / Intern at BitPanda,Vienna,Vienna based,yes,Yes,in Vienna more than Italy because everything closes early,time,laptop,laptop,large,"faster, safer, app on phone is not always working fine","ease of use, safety",yes,yes,"do something different, opens your mind and you can also learn a lot ",creativity /relaxation,intrinsic,8 times a year (circa),8,regulary,,,,it is a way to escape routine and think of something else,with people (but we do the visit alone) ,with someone,to share thoughts about the museum/exhibition,exchange,"billabords (you see them and take picture of it), social media, facebook events",passive,social media,Billabords because i can take picture of it and then i can go,there is no one place where you can find everything ,scattered information,lose time in the research,yes,yes,at the museum ,offline,because maybe something happens and i cannot go (if its a museum like Uffizi in firenze i book online 2 months before),flexibility,facebook(?),yes,facebook,no,no,no,because i get bored. But if is something that is not immediate I read it to understand it,yes,yes,don't want to lose time and understand if it suits my taste,"filters for what you like or not, link to some websites, some reviews maybe, photos from people ",,casual goer,he is not keeping tickets

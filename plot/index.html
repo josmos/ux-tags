@@ -3,8 +3,8 @@
   <head>
     <title>Emperor</title>
     <!-- core dependencies that are otherwise included via the jupyter notebook -->
-<script src="./vendor/js/require-2.1.22.min.js"></script>
-<script src="./vendor/js/jquery-2.1.4.min.js"></script>
+<script src="/nbextensions/emperor/support_files/vendor/js/require-2.1.22.min.js"></script>
+<script src="/nbextensions/emperor/support_files/vendor/js/jquery-2.1.4.min.js"></script>
     <meta charset="utf-8">
 
     <script type="text/javascript">
@@ -12,19 +12,19 @@
 if ($("#emperor-css").length == 0){{
     $("head").append([
 
-        '<link id="emperor-css" rel="stylesheet" type="text/css" href="./css/emperor.css">',
-        '<link rel="stylesheet" type="text/css" href="./vendor/css/jquery-ui.min.css">',
-        '<link rel="stylesheet" type="text/css" href="./vendor/css/slick.grid.min.css">',
-        '<link rel="stylesheet" type="text/css" href="./vendor/css/spectrum.min.css">',
-        '<link rel="stylesheet" type="text/css" href="./vendor/css/chosen.min.css">',
-        '<link rel="stylesheet" type="text/css" href="./vendor/css/jquery.contextMenu.min.css">'
+        '<link id="emperor-css" rel="stylesheet" type="text/css" href="/nbextensions/emperor/support_files/css/emperor.css">',
+        '<link rel="stylesheet" type="text/css" href="/nbextensions/emperor/support_files/vendor/css/jquery-ui.min.css">',
+        '<link rel="stylesheet" type="text/css" href="/nbextensions/emperor/support_files/vendor/css/slick.grid.min.css">',
+        '<link rel="stylesheet" type="text/css" href="/nbextensions/emperor/support_files/vendor/css/spectrum.min.css">',
+        '<link rel="stylesheet" type="text/css" href="/nbextensions/emperor/support_files/vendor/css/chosen.min.css">',
+        '<link rel="stylesheet" type="text/css" href="/nbextensions/emperor/support_files/vendor/css/jquery.contextMenu.min.css">'
     ]);
 }}
 </script>
 
 
     <style>
-      #emperor-notebook-0xbce2bd51 {
+      #emperor-notebook-0xd7879e88 {
         height:100vh !important;
         padding: 0px !important;
       }
@@ -37,8 +37,8 @@ if ($("#emperor-css").length == 0){{
     </style>
   </head>
   <body>
-    <div id='emperor-notebook-0xbce2bd51' style="position: relative; width:100%; height:500px;">
-  <div class='loading' style="position: absolute;top: 50%;left: 50%;margin-left: -229px; margin-top: -59px; z-index: 10000;height:118px;width:458px;padding:0px"><img src='./img/emperor.png' alt='Emperor resources missing. Expected them to be found in .'></div>
+    <div id='emperor-notebook-0xd7879e88' style="position: relative; width:100%; height:500px;">
+  <div class='loading' style="position: absolute;top: 50%;left: 50%;margin-left: -229px; margin-top: -59px; z-index: 10000;height:118px;width:458px;padding:0px"><img src='/nbextensions/emperor/support_files/img/emperor.png' alt='Emperor resources missing. Expected them to be found in /nbextensions/emperor/support_files'></div>
 </div>
 </div>
     <script type="text/javascript">
@@ -51,68 +51,68 @@ var emperorRequire = require.config({
 // relative to the baseUrl attribute, do NOT include the .js extension
 'paths': {
   /* jQuery */
-  'jquery': './vendor/js/jquery-2.1.4.min',
-  'jqueryui': './vendor/js/jquery-ui.min',
-  'jquery_drag': './vendor/js/jquery.event.drag-2.2.min',
+  'jquery': '/nbextensions/emperor/support_files/vendor/js/jquery-2.1.4.min',
+  'jqueryui': '/nbextensions/emperor/support_files/vendor/js/jquery-ui.min',
+  'jquery_drag': '/nbextensions/emperor/support_files/vendor/js/jquery.event.drag-2.2.min',
 
   /* jQuery plugins */
-  'chosen': './vendor/js/chosen.jquery.min',
-  'spectrum': './vendor/js/spectrum.min',
-  'position': './vendor/js/jquery.ui.position.min',
-  'contextmenu': './vendor/js/jquery.contextMenu.min',
+  'chosen': '/nbextensions/emperor/support_files/vendor/js/chosen.jquery.min',
+  'spectrum': '/nbextensions/emperor/support_files/vendor/js/spectrum.min',
+  'position': '/nbextensions/emperor/support_files/vendor/js/jquery.ui.position.min',
+  'contextmenu': '/nbextensions/emperor/support_files/vendor/js/jquery.contextMenu.min',
 
   /* other libraries */
-  'underscore': './vendor/js/underscore-min',
-  'chroma': './vendor/js/chroma.min',
-  'filesaver': './vendor/js/FileSaver.min',
-  'blob': './vendor/js/Blob',
-  'canvastoblob': './vendor/js/canvas-toBlob',
-  'd3': './vendor/js/d3.min',
+  'underscore': '/nbextensions/emperor/support_files/vendor/js/underscore-min',
+  'chroma': '/nbextensions/emperor/support_files/vendor/js/chroma.min',
+  'filesaver': '/nbextensions/emperor/support_files/vendor/js/FileSaver.min',
+  'blob': '/nbextensions/emperor/support_files/vendor/js/Blob',
+  'canvastoblob': '/nbextensions/emperor/support_files/vendor/js/canvas-toBlob',
+  'd3': '/nbextensions/emperor/support_files/vendor/js/d3.min',
 
   /* THREE.js and plugins */
-  'three': './vendor/js/three.min',
-  'orbitcontrols': './vendor/js/three.js-plugins/OrbitControls',
-  'projector': './vendor/js/three.js-plugins/Projector',
-  'svgrenderer': './vendor/js/three.js-plugins/SVGRenderer',
-  'canvasrenderer': './vendor/js/three.js-plugins/CanvasRenderer',
-  'selectionbox': './vendor/js/three.js-plugins/SelectionBox',
-  'selectionhelper': './vendor/js/three.js-plugins/SelectionHelper',
+  'three': '/nbextensions/emperor/support_files/vendor/js/three.min',
+  'orbitcontrols': '/nbextensions/emperor/support_files/vendor/js/three.js-plugins/OrbitControls',
+  'projector': '/nbextensions/emperor/support_files/vendor/js/three.js-plugins/Projector',
+  'svgrenderer': '/nbextensions/emperor/support_files/vendor/js/three.js-plugins/SVGRenderer',
+  'canvasrenderer': '/nbextensions/emperor/support_files/vendor/js/three.js-plugins/CanvasRenderer',
+  'selectionbox': '/nbextensions/emperor/support_files/vendor/js/three.js-plugins/SelectionBox',
+  'selectionhelper': '/nbextensions/emperor/support_files/vendor/js/three.js-plugins/SelectionHelper',
 
   /* SlickGrid */
-  'slickcore': './vendor/js/slick.core.min',
-  'slickgrid': './vendor/js/slick.grid.min',
-  'slickformatters': './vendor/js/slick.editors.min',
-  'slickeditors': './vendor/js/slick.formatters.min',
-  'slickdataview': './vendor/js/slick.dataview.min',
+  'slickcore': '/nbextensions/emperor/support_files/vendor/js/slick.core.min',
+  'slickgrid': '/nbextensions/emperor/support_files/vendor/js/slick.grid.min',
+  'slickformatters': '/nbextensions/emperor/support_files/vendor/js/slick.editors.min',
+  'slickeditors': '/nbextensions/emperor/support_files/vendor/js/slick.formatters.min',
+  'slickdataview': '/nbextensions/emperor/support_files/vendor/js/slick.dataview.min',
 
   /* Emperor's objects */
-  'util': './js/util',
-  'model': './js/model',
-  'multi-model': './js/multi-model',
-  'view': './js/view',
-  'controller': './js/controller',
-  'draw': './js/draw',
-  'scene3d': './js/sceneplotview3d',
-  'shapes': './js/shapes',
-  'animationdirector': './js/animate',
-  'trajectory': './js/trajectory',
-  'uistate': './js/ui-state',
+  'util': '/nbextensions/emperor/support_files/js/util',
+  'model': '/nbextensions/emperor/support_files/js/model',
+  'multi-model': '/nbextensions/emperor/support_files/js/multi-model',
+  'view': '/nbextensions/emperor/support_files/js/view',
+  'controller': '/nbextensions/emperor/support_files/js/controller',
+  'draw': '/nbextensions/emperor/support_files/js/draw',
+  'scene3d': '/nbextensions/emperor/support_files/js/sceneplotview3d',
+  'shapes': '/nbextensions/emperor/support_files/js/shapes',
+  'animationdirector': '/nbextensions/emperor/support_files/js/animate',
+  'trajectory': '/nbextensions/emperor/support_files/js/trajectory',
+  'uistate': '/nbextensions/emperor/support_files/js/ui-state',
 
   /* controllers */
-  'abcviewcontroller': './js/abc-view-controller',
-  'viewcontroller': './js/view-controller',
-  'colorviewcontroller': './js/color-view-controller',
-  'visibilitycontroller': './js/visibility-controller',
-  'opacityviewcontroller': './js/opacity-view-controller',
-  'scaleviewcontroller': './js/scale-view-controller',
-  'shapecontroller': './js/shape-controller',
-  'axescontroller': './js/axes-controller',
-  'animationscontroller': './js/animations-controller',
+  'abcviewcontroller': '/nbextensions/emperor/support_files/js/abc-view-controller',
+  'viewcontroller': '/nbextensions/emperor/support_files/js/view-controller',
+  'colorviewcontroller': '/nbextensions/emperor/support_files/js/color-view-controller',
+  'visibilitycontroller': '/nbextensions/emperor/support_files/js/visibility-controller',
+  'opacityviewcontroller': '/nbextensions/emperor/support_files/js/opacity-view-controller',
+  'scaleviewcontroller': '/nbextensions/emperor/support_files/js/scale-view-controller',
+  'shapecontroller': '/nbextensions/emperor/support_files/js/shape-controller',
+  'axescontroller': '/nbextensions/emperor/support_files/js/axes-controller',
+  'animationscontroller': '/nbextensions/emperor/support_files/js/animations-controller',
 
   /* editors */
-  'shape-editor': './js/shape-editor',
-  'color-editor': './js/color-editor',
-  'scale-editor': './js/scale-editor'
+  'shape-editor': '/nbextensions/emperor/support_files/js/shape-editor',
+  'color-editor': '/nbextensions/emperor/support_files/js/color-editor',
+  'scale-editor': '/nbextensions/emperor/support_files/js/scale-editor'
 
 },
 /*
@@ -147,9 +147,9 @@ emperorRequire(
 function($, model, EmperorController) {
   var DecompositionModel = model.DecompositionModel;
 
-  var div = $('#emperor-notebook-0xbce2bd51');
+  var div = $('#emperor-notebook-0xd7879e88');
 
-  var data = {"info": null, "plot": {"decomposition": {"axes_names": [0, 1, 2, 3, 4], "ci": null, "coordinates": [[0.06014482797972239, -0.1971224779482297, 0.08551691384412334, -0.1962943890883055, 0.04696936445420796], [0.00500298782712884, -0.2822530208974524, 0.05907214124541537, -0.2404951979438968, 0.15113183962121357], [0.08270237014249571, -0.2421369804886772, 1.0, 0.14951631782910552, -0.08814186923631558], [-0.11289150914806007, -0.25994811811006524, -0.19201326658284879, 0.5404475370548767, 0.24928887116648005], [-0.27000378735001906, -0.09309153496923386, -0.016452637477648916, -0.02783405859981506, 0.572390993042082], [-0.19882028731980553, 0.1529890964655742, 0.21870115805273072, 0.25200335366555743, -0.04396457330424597], [0.1905987116816583, 0.0930927224991343, 0.04283897488851617, -0.15038757454778146, 0.2361472845313897], [0.5281324736700097, 0.21686056267118942, -0.23877347776816424, -0.040681213986483056, -0.08275047727927669], [-0.3022589309849984, 0.15685542335049593, -0.07010549875823481, 0.031287919451436406, 0.10673437068903456], [-0.4811484599507564, 0.4162223190910059, 0.15608417539129107, -0.047865722095272185, -0.5422481027533071], [-0.4011203448044431, 0.41537426691152296, -0.052852030185310844, -0.10690554643399562, -0.044564620440430636], [-0.41647273051169076, 0.514448457808101, -0.10430579334131988, -0.3024776010099696, 0.11023664596467705], [0.10388999419909135, -0.3436596574987913, -0.039296919130374613, -0.5060577821865799, -0.05764660229440912], [0.14382344704590022, -0.27408741016710175, -0.09057359697867744, -0.23299778356733394, -0.1435401844902902], [0.057244738889615066, -0.3412639132303196, -0.14266043100023143, -0.15656144025588942, -0.46139415200792505], [0.5415992434467287, 0.2503994840142679, -0.18380066702039344, 0.0901585496600578, -0.07901685276038381], [0.5117265766836803, 0.21808632032474312, -0.1474376018024262, 0.060763266112839935, -0.00750723892636988], [0.5253371426355695, 0.42885180387690797, 0.2515066344867685, 0.26972654539061314, 0.0811681516486623], [-0.10953621903369938, -0.004360910210420818, -0.10199304301459663, 0.08683850219335729, 0.13170620701962932], [-0.21536064125103596, -0.17628456355062563, -0.14317489918394802, 0.28674956125372003, 0.096930267856973], [-0.19922620836120072, -0.39179114527476633, -0.3206687986429848, 0.467658546382598, -0.37233056812190746], [-0.043363395485889945, -0.25718072466725855, 0.030388662978314235, -0.22659178927883894, 0.14040124562051315]], "edges": [], "percents_explained": [18.08125451629371, 13.655751465957641, 8.651880289427638, 7.445137696299739, 5.816115198097345], "sample_ids": ["Sabine", "Jenny", "Britta", "Lisa", "Jaqueline", "Cristina", "Stephan", "Petra", "Matic", "Natalija", "Primo\u017e", "Nastja", "B\u00f6rni", "Tereza", "Nico", "Volker", "Theresa", "Maria", "Sofia", "Emma", "Lorenzo", "Rocco"]}, "metadata": [["Sabine", "\u003e40", "abroad", "convenience", "large", "ease of use", "yes", "creativity, education", "intrinsic", "4", "", "", "with someone", "exchange", "ambiguous", "billboards, newspaper, social media, word-of-mouth", "", "yes", "mostly offline", "flexibility", "no", "", "no", "yes", "", "0"], ["Jenny", "21-30", "vienna based", "convenience", "large", "ease of use, mobility", "yes", "", "intrinsic", "4", "", "", "with someone", "exchange", "proactive", "museum website, other, word-of-mouth", "", "yes", "mostly offline", "flexibility", "no", "", "yes", "yes", "audio guides", "0"], ["Britta", "31-40", "abroad", "", "medium", "app optimization, ease of use", "yes", "creativity, relaxation", "intrinsic", "4", "", "", "ambiguous", "exchange, flexibility", "proactive", "google", "no clarity, no clarity, time consuming", "yes", "offline", "flexibility, time saving", "no", "", "no", "yes", "favorits/filters, map", "0"], ["Lisa", "21-30", "abroad", "", "small", "app optimization, mobility", "on holidays yes", "education", "intrinsic", "1", "history", "", "with someone", "companionship, exchange", "proactive", "other", "no clarity", "yes", "offline", "time saving", "yes", "google maps", "yes", "yes", "", "1"], ["Jaqueline", "21-30", "vienna based", "convenience", "large", "ease of use, mobility", "yes", "education, interest", "intrinsic", "17", "art, history, nature", "both", "alone", "flexibility", "ambiguous", "museum website, other", "no clarity", "yes", "offline", "convenience", "yes", "", "no", "yes", "map", "1"], ["Cristina", "31-40", "vienna based", "", "small", "", "yes", "creativity, education", "intrinsic", "24", "", "both", "alone", "peace, personal interest, quality time", "proactive", "google, museum website, other, social media, word-of-mouth", "scattered information", "yes", "offline, online (price), subscription", "collecting instinct, information, price", "yes", "google\nmuseum app", "", "no", "", "1"], ["Stephan", "21-30", "vienna based", "", "large", "ease of use, safety", "yes", "education", "intrinsic", "4", "", "popular", "", "companionship", "ambiguous", "billboards, google, museum website, word-of-mouth", "", "", "", "convenience", "no", "google, is invited", "", "no", "", "2"], ["Petra", "\u003e40", "vienna based", "convenience, time", "small", "", "yes", "education", "extrinsic", "2", "", "not popular, popular", "with someone", "quality time", "passive", "word-of-mouth", "", "", "", "", "no", "is invited", "", "", "", "2"], ["Matic", "21-30", "abroad", "convenience, overview, time", "small", "", "", "education, interest", "intrinsic", "", "history", "", "alone", "flexibility, personal interest", "proactive", "billboards, google, museum website, other", "", "yes", "offline", "convenience", "", "", "", "yes", "filter", "1"], ["Natalija", "21-30", "abroad", "experiance, overview", "large", "", "", "creativity, interest, relaxation, social", "intrinsic", "", "art", "both", "ambiguous", "exchange, flexibility, peace, personal interest, quality time", "proactive", "google, museum website, other, social media, word-of-mouth", "scattered information", "yes", "both", "convenience, time saving", "", "tripadvisor", "", "yes", "favorites, map, previews", "1"], ["Primo\u017e", "21-30", "abroad", "overview, time", "large", "", "", "interest, social", "both", "", "art", "both", "alone", "flexibility", "ambiguous", "google, museum website, word-of-mouth", "", "yes", "both", "convenience, price", "", "", "", "no", "", "1"], ["Nastja", "21-30", "vienna based", "convenience, overview, time", "large", "", "", "education, interest, social", "both", "", "art", "both", "with someone", "companionship, quality time", "ambiguous", "billboards, google, museum website, other, social media", "scattered information", "yes", "museum", "convenience", "", "inspi", "", "yes", "filters, reminders", "1"], ["B\u00f6rni", "21-30", "vienna based", "convenience", "large", "app optimization", "yes", "creativity", "", "1-2", "", "not popular", "with someone", "exchange", "passive", "word-of-mouth", "", "yes", "offline", "time saving", "no", "", "no", "yes", "favorits", "0"], ["Tereza", "21-30", "abroad", "convenience", "small", "mobility", "yes", "education", "", "?", "", "popular", "with someone", "exchange", "passive", "social media", "", "yes", "online", "time saving", "no", "", "no", "yes", "personalised notifications", "0"], ["Nico", "21-30", "abroad", "time", "small", "ease of use", "yes", "creativity", "", "2", "", "popular", "with someone", "exchange", "proactive", "museum website", "no clarity, scattered information", "yes", "online", "convenience, time saving", "no", "", "yes", "yes", "personalised notifications, preview", "0"], ["Volker", "\u003e40", "outside vienna", "", "small", "mobility", "yes", "education", "extrinsic", "2", "history, tech", "popular", "with someone", "companionship, quality time", "proactive", "media-reports, social media", "", "", "", "", "no", "", "", "", "", "2"], ["Theresa", "\u003e40", "outside vienna", "", "small", "mobility", "yes", "education", "extrinsic", "4", "history", "popular", "with someone", "companionship, quality time", "passive", "other, social media", "", "", "", "", "no", "", "", "", "", "2"], ["Maria", "\u003e40", "vienna based", "", "medium", "mobility", "yes", "education, social", "intrinsic", "na", "art", "ambiguous", "ambiguous", "companionship, personal interrest", "ambiguous", "google, media-reports, social media, word-of-mouth", "no clarity, no reminders", "", "", "", "no", "", "", "", "", "2"], ["Sofia", "21-30", "vienna based", "convenience", "large", "", "yes", "education", "intrinsic", "12", "art", "", "alone", "flexibility", "proactive", "social media", "", "yes", "offline, online", "", "yes", "instagram, google", "", "yes", "", "1"], ["Emma", "21-30", "vienna based", "time", "ambiguous", "", "yes", "education", "intrinsic", "40-48", "art", "", "alone", "flexibility", "proactive", "billboards, word-of-mouth", "no reminders", "yes", "offline", "flexibility", "yes", "esel.at", "yes", "yes", "", "1"], ["Lorenzo", "21-30", "abroad", "overview", "small", "ease of use", "yes", "education", "intrinsic", "40-48", "art/history", "", "alone", "flexibility", "proactive", "google, museum website", "no clarity, scattered information", "yes", "online", "time saving", "yes", "arte.it, google arts \u0026 culture", "yes", "yes", "favorites for museums and have notification on temporary exhibition in the museums you have favorites", "1"], ["Rocco", "21-30", "vienna based", "time", "large", "ease of use, safety", "yes", "creativity /relaxation", "intrinsic", "8", "", "", "with someone", "exchange", "passive", "social media", "scattered information", "yes", "offline", "flexibility", "yes", "facebook", "no", "yes", "", "0"]], "metadata_headers": ["SampleID", "age ranks", "place of living", "why online shopping", "display size", "display - motives", "visits museum", "motives for museum visit", "motivation for museum visit", "vistits per year", "kind of interrest", "popularity", "company", "motives for company", "information mode", "information type", "information challenges", "would use app", "ticket purchase", "ticket purchase - motivation", "uses app website", "app used now", "apps - bad experinces", "inform in advance", "suggestions", "cluster"], "settings": {}, "type": "scatter"}};
+  var data = {"info": null, "plot": {"decomposition": {"axes_names": [0, 1, 2, 3, 4], "ci": null, "coordinates": [[-0.07307783663859982, -0.17466960743898377, 0.13601818179824257, 0.19106015587256872, 0.07180909258046751], [-0.026354526181138573, -0.2677482116051212, 0.1144010743683741, 0.22966570830539773, 0.18968309978484457], [-0.09216623372054686, -0.20073135168999062, 1.0, -0.30691908072456836, -0.039402652282798004], [0.06849990005806744, -0.33781983281288464, -0.2778818351161793, -0.49195002217569417, 0.1089400184085165], [0.24321884539454552, -0.17246285757137111, -0.07329982706159725, -0.07600976797573343, 0.6189773083317944], [0.23061606388951814, 0.17781462568451967, 0.1928849622202004, -0.253029067490362, -0.1994363245618217], [-0.23090010480890025, 0.19537809575383763, -0.017780713267537284, 0.027983361591865374, 0.2369231214089084], [-0.5089077007598057, 0.2583352151328282, -0.2224709391362019, 0.1034161463833918, -0.10705818536801821], [0.3334079616651054, 0.14723812144668014, -0.07345162375091382, -0.01297915888571113, 0.09413957747033697], [0.5466504755216922, 0.39831312232397637, 0.16954929220755743, 0.054066747079342344, -0.48847133063406556], [0.4562463667075487, 0.3973436851833109, -0.06236026581354416, 0.08758148890944864, -0.006699614365598349], [0.483648210130599, 0.49646684238773975, -0.09146063284013889, 0.2715003307100703, 0.1828065287060787], [-0.1241274958512412, -0.303426881807287, 0.08933086673017888, 0.5539507553400265, 0.022393569295071893], [-0.16276844465387053, -0.24459282972904683, -0.007815927311406902, 0.30152038612603455, -0.12100185991497828], [-0.07860164372049351, -0.3187402180496566, -0.04707254389170858, 0.2825154812894266, -0.4458980463735024], [-0.5215045749776447, 0.2894084508616501, -0.19344381975227723, -0.03985044796326344, -0.11841939906959992], [-0.4946703848660617, 0.25886143245407794, -0.1557189876401343, -0.025721470734221864, -0.04135154700717795], [-0.4913108294347837, 0.4499588302794812, 0.16963145650077616, -0.36534233683193407, 0.1103422086355508], [0.09202189779016233, -0.06699124282058999, -0.15042470356670642, -0.11662688449599756, 0.13613079373636458], [0.18040993070281935, -0.26141132291183694, -0.2117724993894955, -0.28847066454157383, 0.07073197759953154], [0.146532393086194, -0.4730650993820429, -0.3654733739190245, -0.3436157349149929, -0.4358724385485414], [0.02313773066683438, -0.2474589656892899, 0.07861185863153643, 0.21725407512648004, 0.16073410216863646]], "edges": [], "percents_explained": [17.798779722101095, 14.543031340714819, 8.633305304053911, 7.570722687360249, 5.840012080696551], "sample_ids": ["Sabine", "Jenny", "Britta", "Lisa", "Jaqueline", "Cristina", "Stephan", "Petra", "Matic", "Natalija", "Primo\u017e", "Nastja", "B\u00f6rni", "Tereza", "Nico", "Volker", "Theresa", "Maria", "Sofia", "Emma", "Lorenzo", "Rocco"]}, "metadata": [["Sabine", "\u003e40", "abroad", "convenience", "large", "ease of use", "yes", "creativity, education", "intrinsic", "4", "", "", "with someone", "exchange", "ambiguous", "billboards, newspaper, social media, word-of-mouth", "", "yes", "mostly offline", "flexibility", "no", "", "no", "yes", "", "0"], ["Jenny", "21-30", "vienna based", "convenience", "large", "ease of use, mobility", "yes", "", "intrinsic", "4", "", "", "with someone", "exchange", "proactive", "museum website, other, word-of-mouth", "", "yes", "mostly offline", "flexibility", "no", "", "yes", "yes", "audio guides", "0"], ["Britta", "31-40", "abroad", "", "medium", "app optimization, ease of use", "yes", "creativity, relaxation", "intrinsic", "4", "", "", "ambiguous", "exchange, flexibility", "proactive", "google", "no clarity, no clarity, time consuming", "yes", "offline", "flexibility, time saving", "no", "", "no", "yes", "favorits/filters, map", "0"], ["Lisa", "21-30", "abroad", "", "small", "app optimization, mobility", "on holidays yes", "education", "intrinsic", "1", "history", "", "with someone", "companionship, exchange", "proactive", "other", "no clarity", "yes", "offline", "time saving", "yes", "google maps", "yes", "yes", "", "2"], ["Jaqueline", "21-30", "vienna based", "convenience", "large", "ease of use, mobility", "yes", "education, interest", "intrinsic", "17", "art, history, nature", "both", "alone", "flexibility", "ambiguous", "museum website, other", "no clarity", "yes", "offline", "convenience", "yes", "", "no", "yes", "map", "2"], ["Cristina", "31-40", "vienna based", "", "small", "", "yes", "creativity, education", "intrinsic", "24", "", "both", "alone", "peace, personal interest, quality time", "proactive", "google, museum website, other, social media, word-of-mouth", "scattered information", "yes", "offline, online (price), subscription", "collecting instinct, information, price", "yes", "google\nmuseum app", "", "no", "", "1"], ["Stephan", "21-30", "vienna based", "", "large", "ease of use, safety", "yes", "education", "intrinsic", "4", "", "popular", "", "companionship", "ambiguous", "billboards, google, museum website, word-of-mouth", "", "", "", "convenience", "no", "google, is invited", "", "no", "", "3"], ["Petra", "\u003e40", "vienna based", "convenience, time", "small", "", "yes", "education", "extrinsic", "2", "", "not popular, popular", "with someone", "quality time", "passive", "word-of-mouth", "", "", "", "", "no", "is invited", "", "", "", "3"], ["Matic", "21-30", "abroad", "convenience, overview, time", "small", "", "", "education, interest", "intrinsic", "", "history", "", "alone", "flexibility, personal interest", "proactive", "billboards, google, museum website, other", "", "yes", "offline", "convenience", "", "", "", "yes", "filter", "1"], ["Natalija", "21-30", "abroad", "experiance, overview", "large", "", "", "creativity, interest, relaxation, social", "intrinsic", "", "art", "both", "ambiguous", "exchange, flexibility, peace, personal interest, quality time", "proactive", "google, museum website, other, social media, word-of-mouth", "scattered information", "yes", "both", "convenience, time saving", "", "tripadvisor", "", "yes", "favorites, map, previews", "1"], ["Primo\u017e", "21-30", "abroad", "overview, time", "large", "", "", "interest, social", "both", "", "art", "both", "alone", "flexibility", "ambiguous", "google, museum website, word-of-mouth", "", "yes", "both", "convenience, price", "", "", "", "no", "", "1"], ["Nastja", "21-30", "vienna based", "convenience, overview, time", "large", "", "", "education, interest, social", "both", "", "art", "both", "with someone", "companionship, quality time", "ambiguous", "billboards, google, museum website, other, social media", "scattered information", "yes", "museum", "convenience", "", "inspi", "", "yes", "filters, reminders", "1"], ["B\u00f6rni", "21-30", "vienna based", "convenience", "large", "app optimization", "yes", "creativity", "", "1-2", "", "not popular", "with someone", "exchange", "passive", "word-of-mouth", "", "yes", "offline", "time saving", "no", "", "no", "yes", "favorits", "0"], ["Tereza", "21-30", "abroad", "convenience", "small", "mobility", "yes", "education", "", "?", "", "popular", "with someone", "exchange", "passive", "social media", "", "yes", "online", "time saving", "no", "", "no", "yes", "personalised notifications", "0"], ["Nico", "21-30", "abroad", "time", "small", "ease of use", "yes", "creativity", "", "2", "", "popular", "with someone", "exchange", "proactive", "museum website", "no clarity, scattered information", "yes", "online", "convenience, time saving", "no", "", "yes", "yes", "personalised notifications, preview", "0"], ["Volker", "\u003e40", "outside vienna", "", "small", "mobility", "yes", "education", "extrinsic", "2", "history, tech", "popular", "with someone", "companionship, quality time", "proactive", "media-reports, social media", "", "", "", "", "no", "", "", "", "", "3"], ["Theresa", "\u003e40", "outside vienna", "", "small", "mobility", "yes", "education", "extrinsic", "4", "history", "popular", "with someone", "companionship, quality time", "passive", "other, social media", "", "", "", "", "no", "", "", "", "", "3"], ["Maria", "\u003e40", "vienna based", "", "medium", "mobility", "yes", "education, social", "intrinsic", "na", "art", "ambiguous", "ambiguous", "companionship, personal interrest", "ambiguous", "google, media-reports, social media, word-of-mouth", "no clarity, no reminders", "", "", "", "no", "", "", "", "", "3"], ["Sofia", "21-30", "vienna based", "convenience", "large", "", "yes", "education", "intrinsic", "12", "art", "", "alone", "flexibility", "proactive", "social media", "", "yes", "offline, online", "", "yes", "instagram, google", "", "yes", "", "2"], ["Emma", "21-30", "vienna based", "time", "ambiguous", "", "yes", "education", "intrinsic", "40-48", "art", "", "alone", "flexibility", "proactive", "billboards, word-of-mouth", "no reminders", "yes", "offline", "flexibility", "yes", "esel.at", "yes", "yes", "", "2"], ["Lorenzo", "21-30", "abroad", "overview", "small", "ease of use", "yes", "education", "intrinsic", "40-48", "art/history", "", "alone", "flexibility", "proactive", "google, museum website", "no clarity, scattered information", "yes", "online", "time saving", "yes", "arte.it, google arts \u0026 culture", "yes", "yes", "favorites for museums and have notification on temporary exhibition in the museums you have favorites", "2"], ["Rocco", "21-30", "vienna based", "time", "large", "ease of use, safety", "yes", "creativity /relaxation", "intrinsic", "8", "", "", "with someone", "exchange", "passive", "social media", "scattered information", "yes", "offline", "flexibility", "yes", "facebook", "no", "yes", "", "0"]], "metadata_headers": ["SampleID", "age ranks", "place of living", "why online shopping", "display size", "display - motives", "visits museum", "motives for museum visit", "motivation for museum visit", "vistits per year", "kind of interrest", "popularity", "company", "motives for company", "information mode", "information type", "information challenges", "would use app", "ticket purchase", "ticket purchase - motivation", "uses app website", "app used now", "apps - bad experinces", "inform in advance", "suggestions", "cluster"], "settings": {}, "type": "scatter"}};
 
   var plot, biplot = null, ec;
 
@@ -168,7 +168,7 @@ function($, model, EmperorController) {
                                       data.biplot.type);
     }
 
-    ec = new EmperorController(plot, biplot, "emperor-notebook-0xbce2bd51", undefined,
+    ec = new EmperorController(plot, biplot, "emperor-notebook-0xd7879e88", undefined,
                                data.info);
   }
 
